@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f7fb;
+        color: #333;
+      }
+      header {
+        background: #00539c;
+        color: #fff;
+        padding: 20px 40px;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      nav a {
+        color: #fff;
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .hero {
+        padding: 60px 40px;
+        text-align: center;
+      }
+      .hero h2 {
+        margin-bottom: 10px;
+        font-size: 2.2rem;
+      }
+      .hero p {
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+        padding: 40px;
+      }
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        padding: 24px;
+      }
+      .card h3 {
+        margin-top: 0;
+      }
+      .footer {
+        background: #222;
+        color: #ddd;
+        text-align: center;
+        padding: 20px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Green Valley School</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>Welcome to our school community</h2>
+      <p>At Green Valley School, we inspire students to learn, grow, and achieve their best through a supportive and engaging environment. Explore our programs, meet our faculty, and discover how we prepare learners for success.</p>
+    </section>
+    <section class="cards" id="about">
+      <div class="card">
+        <h3>About Us</h3>
+        <p>Our school offers a nurturing learning experience with a strong focus on academic excellence, character development, and community involvement.</p>
+      </div>
+      <div class="card" id="programs">
+        <h3>Programs</h3>
+        <p>From kindergarten through high school, we provide a broad curriculum, arts and athletics, technology labs, and extracurricular clubs.</p>
+      </div>
+      <div class="card" id="contact">
+        <h3>Contact</h3>
+        <p>Reach out to our admissions team to schedule a visit or learn more about enrollment and campus life.</p>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2026 Green Valley School. All rights reserved.</p>
+    </footer>
+  </body>
+</html> 
